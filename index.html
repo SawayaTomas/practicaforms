@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <form action="">    
+            <!-- No entendí bien que poner en action -->
+            <label for="nombre"><b>Nombre y Apellido:</b></label>
+            <input type="text"  name="nombre" placeholder="Nombre Completo"><br><br>
+            <label for="edad"><b>Edad:</b></label>
+            <input type="date"  name="edad" placeholder="Fecha de Nacimiento"> <br><br>
+            <label for="email"><b>Email:</b></label>
+            <input type="email" name="email" placeholder="Correo Electronico"><br><br>
+            <label for="contraseña"><b>Contraseña:</b></label>
+            <input type="password" name="contraseña" id="contraseña" placeholder="Password"><br><br><br>
+            <section>
+                <label for="job"><b>Ocupación:</b></label>
+                <input type="radio" id="estudiante" name="job" value="estudiante">
+                <label for="student">Estudiante</label>
+                <input type="radio" id="profesional" name="job" value="profesional">
+                <label for="professional">Profesional</label>
+                <input type="radio" id="other" name="job" value="other">
+                <label for="other">Otro</label>
+                <br><br><br>
+            </section>
+            <section>
+                <label for="contact"><b>Hora de Contacto:</b></label>
+                <input type="checkbox" name="contact" id="morning">
+                <label for="morning">En la mañana</label>
+                <input type="checkbox" name="contact" id="at_noon">
+                <label for="at_noon">Al mediodia</label>
+                <input type="checkbox" name="contact" id="afternoon">
+                <label for="afternoon">En la tarde</label>
+                <br><br><br>
+            </section>
+            <section>
+                <label for="revision">Agregue un comentario</label>
+                <textarea name="revision" id="revision" cols="50" rows="10">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi facere, autem velit iste fuga tenetur cumque qui doloribus voluptate adipisci necessitatibus dicta aliquid, ab unde exercitationem consectetur, saepe accusantium facilis.
+                </textarea>
+                <br><br><br>
+                
+            </section>
+            <footer>
+                <label for="information">Deseo recibir a mi email mas informacion</label>
+                <input type="checkbox" name="information" id="information"><br><br><br>
+                <div>
+                    <input type="button" value="Enviar">
+                </div>
+                </footer>
+        </form>
+    </main>
+</body>
+</html>
